@@ -26,18 +26,28 @@ The project encompasses the exploration and analysis of a comprehensive dataset,
 # Data Overview
 The project utilizes several datasets, including:
 
-train.csv: Training data with features such as store number, product family, onpromotion, and sales.
-test.csv: Test data for predicting target sales for the 15 days after the last date in the training data.
-transaction.csv: Information about transactions made on specific dates.
-sample_submission.csv: A sample submission file in the correct format.
-stores.csv: Store metadata, including city, state, type, and cluster.
-oil.csv: Daily oil prices, given Ecuador's dependency on oil.
-holidays_events.csv: Holidays and Events metadata, including information about transferred holidays.
-Hypothesis and Analytical Questions
-Hypothesis
+## train.csv:
+Training data with features such as store number, product family, onpromotion, and sales.
+## test.csv:
+Test data for predicting target sales for the 15 days after the last date in the training data.
+## transaction.csv:
+Information about transactions made on specific dates.
+## sample_submission.csv:
+A sample submission file in the correct format.
+## stores.csv: 
+Store metadata, including city, state, type, and cluster.
+## oil.csv: 
+Daily oil prices, given Ecuador's dependency on oil.
+## holidays_events.csv: 
+Holidays and Events metadata, including information about transferred holidays.
+
+# Hypothesis and Analytical Questions
+## Hypothesis
+
 Null Hypothesis (H0): There is no significant difference in sales between promoted and non-promoted items.
 Alternative Hypothesis (H1): Items that are promoted have significantly higher sales compared to non-promoted items.
-Analytical Questions
+
+# Analytical Questions
 Do items on promotion sell more, and is this difference statistically significant?
 Are sales different between different types of stores?
 Does the daily oil price correlate with overall sales?
