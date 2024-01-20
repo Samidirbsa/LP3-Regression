@@ -48,39 +48,44 @@ Null Hypothesis (H0): There is no significant difference in sales between promot
 Alternative Hypothesis (H1): Items that are promoted have significantly higher sales compared to non-promoted items.
 
 # Analytical Questions
-Do items on promotion sell more, and is this difference statistically significant?
-Are sales different between different types of stores?
-Does the daily oil price correlate with overall sales?
-Do sales change significantly during holidays?
-Do some products consistently sell more during certain seasons?
-Do sales patterns vary depending on the day of the week?
-Getting Started
+
+1. Do items on promotion sell more, and is this difference statistically significant?
+2. Are sales different between different types of stores?
+3. Does the daily oil price correlate with overall sales?
+4. Do sales change significantly during holidays?
+5. Do some products consistently sell more during certain seasons?
+6. Do sales patterns vary depending on the day of the week?
+
+# Getting Started
+
 To get started with the project, follow these steps:
 
 Clone the repository: git clone Corporation Favorita Store Sales Forecasting
 Welcome to the Corporation Favorita Store Sales Forecasting project! This repository is dedicated to predicting store sales for Corporation Favorita, a prominent grocery retailer in Ecuador. Through advanced time series forecasting and analytics, we aim to develop a robust model that accurately predicts unit sales across various items in different Favorita stores.
 
-Table of Contents
-Introduction
-Project Description
-Data Overview
-Hypothesis and Analytical Questions
-Getting Started
-Code Overview
-Contributing
-License
-Introduction
+# Table of Contents
+# Introduction
+# Project Description
+# Data Overview
+# Hypothesis and Analytical Questions
+# Getting Started
+# Code Overview
+# Contributing
+# License
+
+# Introduction
 This project dives into the intriguing challenge of predicting store sales by leveraging time series forecasting techniques. We explore a diverse dataset containing information about dates, store details, product information, promotional activities, sales figures, and additional enriching data. The ultimate goal is to provide Corporation Favorita with data-driven insights for optimizing inventory management, promotional strategies, and overall business performance.
 
-Project Description
+# Project Description
 Title: Enhancing Store Sales Forecasting for Corporation Favorita
-Objective:
+
+# Objective:
 Develop a robust time series forecasting model to predict store sales for Corporation Favorita, providing accurate predictions for unit sales across a diverse range of items in different Favorita stores.
 
-Scope:
+# Scope:
 The project encompasses the exploration and analysis of a comprehensive dataset, including dates, store details, product information, promotional activities, and sales figures. Supplementary files containing additional information will be utilized to enhance the predictive capabilities of the models.
 
-Data Overview
+# Data Overview
 The project utilizes several datasets, including:
 
 train.csv: Training data with features such as store number, product family, onpromotion, and sales.
