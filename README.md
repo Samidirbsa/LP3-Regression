@@ -10,6 +10,21 @@ Title: Enhancing Store Sales Forecasting for Corporation Favorita
 Objective:
 Develop a robust time series forecasting model to predict store sales for Corporation Favorita, providing accurate predictions for unit sales across a diverse range of items in different Favorita stores.
 
+# Methodology
+To achieve the objectives, we will follow a structured approach:
+
+1. Data Exploration   Thoroughly explore the provided datasets to understand the available features, their distributions, and relationships. This step will provide initial insights into the store sales data and help identify any data quality issues.
+
+2. Data Preparation: Handle missing values, perform feature engineering, and encode categorical variables as necessary. This step may involve techniques like imputation, scaling, and one-hot encoding.
+
+3. Time Series Analysis: Analyze the temporal aspects of the data, including trends, seasonality, and potential outliers. This analysis will provide a deeper understanding of the underlying patterns in-store sales over time.
+
+4. Model Selection and Training: Select appropriate time series forecasting models and train them using the prepared data. Consider incorporating external factors like promotions, holidays, and oil prices, if available, to enhance forecasting accuracy.
+
+5. Model Evaluation: Evaluate the trained models using appropriate metrics, such as mean absolute error (MAE), root mean squared error (RMSE), or mean absolute percentage error (MAPE). Assess the models' performance and identify the most accurate and reliable forecasting model.
+
+6. Model Deployment and Forecasting: Deploy the chosen model to predict store sales for future time periods, leveraging the provided test dataset. Generate forecasts for the target period and assess the model's ability to capture the sales patterns accurately.
+
 # Scope:
 The project encompasses the exploration and analysis of a comprehensive dataset, including dates, store details, product information, promotional activities, and sales figures. Supplementary files containing additional information will be utilized to enhance the predictive capabilities of the models.
 
@@ -45,26 +60,6 @@ Alternative Hypothesis (H1): Items that are promoted have significantly higher s
 4. Do sales change significantly during holidays?
 5. Do some products consistently sell more during certain seasons?
 6. Do sales patterns vary depending on the day of the week?
-
-# Getting Started
-
-To get started with the project, follow these steps:
-
-Clone the repository: git clone Corporation Favorita Store Sales Forecasting
-Welcome to the Corporation Favorita Store Sales Forecasting project! This repository is dedicated to predicting store sales for Corporation Favorita, a prominent grocery retailer in Ecuador. Through advanced time series forecasting and analytics, we aim to develop a robust model that accurately predicts unit sales across various items in different Favorita stores.
-
-# Table of Contents
-# Introduction
-# Project Description
-# Data Overview
-# Hypothesis and Analytical Questions
-# Getting Started
-# Code Overview
-# Contributing
-# License
-
-# Introduction
-This project dives into the intriguing challenge of predicting store sales by leveraging time series forecasting techniques. We explore a diverse dataset containing information about dates, store details, product information, promotional activities, sales figures, and additional enriching data. The ultimate goal is to provide Corporation Favorita with data-driven insights for optimizing inventory management, promotional strategies, and overall business performance.
 
 # Project Description
 Title: Enhancing Store Sales Forecasting for Corporation Favorita
